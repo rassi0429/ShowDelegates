@@ -69,6 +69,8 @@ namespace ShowDelegates
         {
             private static void Postfix(WorkerInspector __instance, Worker worker, UIBuilder ui, Predicate<ISyncMember> memberFilter = null)
             {
+                if (!worker.World.InputInterface.GetKey(Key.LeftShift)) return;
+
                 for (int i = 0; i < worker.SyncMemberCount; i++)
                 {
                     ISyncMember syncMember = worker.GetSyncMember(i);
