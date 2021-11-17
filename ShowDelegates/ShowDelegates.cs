@@ -3,10 +3,8 @@ using NeosModLoader;
 using System;
 using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Collections.Generic;
 using FrooxEngine;
-using FrooxEngine.LogiX;
 using FrooxEngine.UIX;
 using BaseX;
 
