@@ -1,6 +1,9 @@
-# ShowDelegates
+# ShowDelegates Fork
+By pressing shift, the delegate will appear
 
 A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that shows delegates in the inspector panel.
+
+
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
